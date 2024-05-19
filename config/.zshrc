@@ -1,6 +1,7 @@
 # ~/.zshrc file for zsh interactive shells.
 # see /usr/share/doc/zsh/examples/zshrc for examples
 
+
 setopt autocd              # change directory just by typing its name
 #setopt correct            # auto correct mistakes
 setopt interactivecomments # allow comments in interactive mode
@@ -260,6 +261,7 @@ fi
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 
+
 echo -e "\033[1m \033[38;5;99m
   /\$\$\$\$\$\$  /\$\$   /\$\$  /\$\$\$\$\$\$
  /\$\$__  \$\$| \$\$  | \$\$ /\$\$\$_  \$\$
@@ -274,3 +276,6 @@ echo -e "\033[1m \033[38;5;99m
 "
 
 
+
+# Created by `pipx` on 2024-05-13 16:21:23
+export PATH="$PATH:/home/aleksic/.local/bin"

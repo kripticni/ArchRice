@@ -7,7 +7,7 @@ if [ "$num_monitors" -gt 1 ]; then
 fi
 wall=~/backgrounds/background.jpg
 feh --bg-fill $wall
-wal -n -i $wall
+wal --theme $HOME/.cache/wal/schemes/_home_aleksic_backgrounds_background_jpg_dark_None_0.75_1.1.0.json
 
 userresources=$HOME/.Xresources
 usermodmap=$HOME/.Xmodmap
